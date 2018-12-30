@@ -1,0 +1,35 @@
+/* Function Animation CSS */
+@-webkit-keyframes move {
+  0% {background-position: 0 0;}
+  100% {background-position: 30px 30px;}
+}
+@-moz-keyframes move {
+  0% {background-position: 0 0;}
+  100% {background-position: 30px 30px;}
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes animateCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes animate {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(405deg);
+    }
+}
